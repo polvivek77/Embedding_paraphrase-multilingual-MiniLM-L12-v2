@@ -1,0 +1,23 @@
+[project]
+name = "embedding-streamlit-demo"
+version = "0.1.0"
+description = "Streamlit demo that shows how a sentence-transformers model turns text into embeddings"
+readme = "README.md"
+authors = [
+    { name = "Vivek_Pol", email = "polvivek77@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.66",
+    "sentence-transformers>=6.2",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+]
+
+[project.scripts]
+embedding-streamlit-demo = "embedding_streamlit_demo:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"

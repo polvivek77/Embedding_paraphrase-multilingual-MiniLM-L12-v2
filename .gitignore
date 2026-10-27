@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+emenv/
+
+# Logs (app.log and its rotated backups app.log.1, app.log.2, ...)
+*.log
+*.log.*
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables / tokens (e.g. HF_TOKEN)
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
